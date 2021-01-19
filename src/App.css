@@ -1,0 +1,31 @@
+.container {
+	display: flex;
+	width: 100%;
+	height: 100vh;
+}
+.block-a {
+	width: 200px;
+	border: 1px solid black;
+	/* background-color: blue; */
+}
+.block-b {
+	width: 100%;
+	border: 1px solid black;
+
+	/* background-color: yellow; */
+}
+.block-c {
+	width: 300px;
+	border: 1px solid black;
+	/* background-color: green; */
+}
+.input-a {
+	width: 70%;
+}
+@media only screen and (max-width: 600px) {
+	.block-b {
+		overflow-y: scroll;
+		min-width: 100px;
+		/* background-color: hotpink; */
+	}
+}
